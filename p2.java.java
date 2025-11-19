@@ -25,7 +25,7 @@ class calculator{
      case 3:
          if(b==0)
          {
-             System.out.println("Division not possible!");
+             System.out.println("Division by 0 not possible!");
          }
          else
        {
@@ -35,7 +35,7 @@ class calculator{
   case 4:
      if(b==0)
      {
-          System.out.println("Division not possible!");
+          System.out.println("Division by 0 not possible!");
      }
      else
      {
