@@ -12,7 +12,7 @@ class IntRev{
 		return n==rev(n);
 	}
 }
-class PalCheck{  // Main class for menu-driven program
+class P8{  // Main class for menu-driven program
 	public static void main(String args[]){
 		Scanner s =new Scanner(System.in);
 		IntRev obj=new IntRev();

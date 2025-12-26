@@ -66,7 +66,7 @@ class OpMatrix{
         	return r;
     	}
 }
-class AddMul{   //Main class 
+class P6{   //Main class 
 	public static void main(String args[]){
 		Scanner s=new Scanner(System.in);
 		OpMatrix obj=new OpMatrix();
