@@ -15,7 +15,7 @@ class PA{
         	System.out.println();
     	}
 }	
-class PassArray{  // Main class
+class P5{  // Main class
 	public static void main(String args[]){
         	Scanner s=new Scanner(System.in);
 	        System.out.print("Enter number of elements: ");
