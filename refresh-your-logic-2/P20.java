@@ -1,14 +1,9 @@
-// Create an interface ishape having two prototypes draw and mov, create two classes 
-// circle and rectangle which implements the above interface. In the main function only 
-// a reference object of ishape is created, depends on the choice entered by the user , it 
-// points to the respective memory location. 
-
 import java.util.*;
 interface ishape{
     public void draw();
     public void mov();
 }
-class Circle implements ishape{
+class Circle implements ishape{    //Circle class implementing ishape
     public void draw(){
         System.out.println("Drawing circle");
     }
@@ -16,7 +11,7 @@ class Circle implements ishape{
         System.out.println("Moving circle");
     }
 }
-class Rectangle implements ishape{
+class Rectangle implements ishape{   //Rectangle class implementing ishape
     public void draw(){
         System.out.println("Drawing rectangle");
     }

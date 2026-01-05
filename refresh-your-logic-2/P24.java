@@ -1,5 +1,5 @@
 import java.util.*;
-class UDE extends Exception{
+class UDE extends Exception{       // User Defined Exception class
     String error;
     public UDE(){
         error="Invalid Password";
@@ -18,7 +18,7 @@ class P24{
         System.out.print("Enter the password: ");
         String pwd=sc.nextLine();
         try{
-            for(int i=0;i<pwd.length();i++){
+            for(int i=0;i<pwd.length();i++){      // check each character
                 char ch=pwd.charAt(i);
                 switch(ch){
                     case '@':
@@ -64,7 +64,7 @@ class P24{
             }
             System.out.println("valid password");
         }
-        catch(UDE e){
+        catch(UDE e){    // handle user defined exception
             System.out.println("Invalid Password: "+e.showError());
         }
     }

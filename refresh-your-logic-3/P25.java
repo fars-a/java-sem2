@@ -13,8 +13,8 @@ class CThread extends Thread{
 class P25{
     public static void main(String args[]){
         CThread t1,t2;
-        t1=new CThread(200);
-        t2=new CThread(250);
+        t1=new CThread(1);
+        t2=new CThread(1);
         System.out.println("B4 Threading...");
         t1.start();
         System.out.println("BW Threading...");

@@ -1,8 +1,3 @@
-//  Create a class for an employee having eno, ename and esal as data members. Provide 
-// functions for reading, displaying, and comparing by eno. Accept n employees' 
-// information in the main function, display the same, and search for an employee whose 
-// eno is given. 
-
 import java.util.*;
 class Employee{
     int eno;
@@ -17,11 +12,13 @@ class Employee{
         System.out.print("Enter esal: ");
         esal=s.nextInt();
     }
+    // display employee details
     void disp(){
         System.out.println("Eno: "+eno);
         System.out.println("Ename: "+ename);
         System.out.println("Esal: "+esal);
     }
+    // search employee by eno
     boolean search(int id){
         return this.eno==id;
     }
@@ -32,7 +29,7 @@ class P18{
         int ch;
         int id=0;
         int n=0;
-        Employee e[]=null;
+        Employee e[]=null;  // array of employees
         do{
             System.out.println("\n1.Read Employee data\n2.Display details\n3.Search Employees\n4.Exit\nEnter your choice: ");
             ch=s.nextInt();
